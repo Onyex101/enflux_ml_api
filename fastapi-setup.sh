@@ -5,7 +5,7 @@ sudo apt install -y uvicorn
 # Copy the configuration file to the nginx enabled sites folder
 sudo cp -R fastapi_setup /etc/nginx/sites-enabled/
 sudo service nginx restart
-cd ~/Enflux_AI_API
+cd ~/enflux_ml_api
 # Install FastAPI application requirements
 pip3 install -r requirements.txt
 # Kill any service running on port 80
